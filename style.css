@@ -25,6 +25,7 @@
     z-index: 1;
     transition: 350ms;
 }
+
 .button::before{
     content: "";
     position: absolute;
@@ -43,7 +44,7 @@ input{
 input:checked + .button{
     background-color: rgb(37, 37, 37);
     transition: 350ms;
-    box-shadow: 0px 0px 0px 100vh black;
+    box-shadow: 0px 0px 0px 100vh  black;
 }
 
 input:checked + .button::before{
